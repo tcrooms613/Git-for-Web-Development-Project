@@ -1,15 +1,15 @@
-https://codepen.io/taylor-crooms/pen/MWjZErv
+https://codepen.io/taylor-crooms/pen/MWjZErv?editors=1100
 
     1. What is Semantic HTML? 
-        - Semantic HTML are HTML elements that define content clearly to developpers and assists in SEO.
+        - Semantic HTML are HTML elements that define content clearly to developers and assists in SEO, and Accessibilty.
     2. What is HTML used for? 
         - HTML is used to structure a webpages elements.
     3. What is an attribute and where do we put it? 
-        - An attribute provides additional information to the tag, and it is to be put in the opening tag.
+        - An attribute provides additional information to the tag, and it is to be put in the opening tag of the html element.
     4. What is the h1 tag used for? How many times should I use it on a page?
         - The h1 tag is used for the title of the webpage and should only be used once per webpage.
     5. Name two tags that have required attributes
-        - <img> & <a>
+        - <img>image & <a>anchor
     6. What do we put in the head of our HTML document? 
         -metadata for the document, ex: links to external javascript, CSS; Title of the webpage,HTML tag, etc...
     7. What is an id? 
@@ -17,9 +17,9 @@ https://codepen.io/taylor-crooms/pen/MWjZErv
     8. What elements can I add an id to? 
         - All elements can have an id added to them, but an id can only be used once per element.
     9. How many times can I use the same id on a page? 
-        - Once per page
+        - Once per element per page
     10. What is a class? 
-        -A class is a HTML attribute that links elements within a CSS file with the '.' selector
+        -A class is a CSS selector and a HTML attribute that links elements within a CSS file with the '.' selector
     11. What elements can I add a class to? 
         - Any elements within the <body> tag of an HTML file
     12. How many times can I use the same class on a page? 
@@ -109,7 +109,11 @@ https://codepen.io/taylor-crooms/pen/MWjZErv
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        - An inline element disregards height and width attributes of the box model and is typically in-line of plain text within the code.
+        - A block level element follows all properties of the box model by default and will add a line break within the html structure.
     2. What happens when an element is positioned absolutely? 
+        - The element acts as a separate layer that does not affect other elements not postioned absolutely.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - 
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
